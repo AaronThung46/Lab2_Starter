@@ -18,9 +18,8 @@
     </header>
 
     <h2>Main Content</h2>
-    <div class="main-container">
-        <main id="minutes"></main>
-        <h1>The First Brainstorm</h1>
+    <main class="main-container">
+        <h1 id="minutes">The First Brainstorm</h1>
         <h2>Meeting Topic: Brainstorming</h2>
         <h2>April, 12, 2026</h2>
         <section>
@@ -77,33 +76,33 @@
             <hr>
 
             <h3>Diagrams</h3>
-            <img src="https://content-management-files.canva.com/09ccee85-c9c6-4555-aed7-45c1618590e8/long-form_data-flow-diagram_section-2_asset-1.png" alt="Picture of a diagram", width="500" height="300">
+            <img src="https://content-management-files.canva.com/09ccee85-c9c6-4555-aed7-45c1618590e8/long-form_data-flow-diagram_section-2_asset-1.png" alt="Picture of a diagram" width="500" height="300">
             
             <hr>
 
-            <hr>Video and Audio Media</h3>
+            <hr>
+            <h3>Video and Audio Media</h3>
             <br>
             <video controls width="500">
                 <source src="screen-capture.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
             <hr>
-            <audio src="Record (online-voice-recorder.com) (3).mp3" controls>
+            <audio src="Record%20(online-voice-recorder.com)%20(3).mp3" controls>
                 Your browser does not support the audio element.
             </audio>
         </section>
 
-        <main id="feedback"></main>
-        <h2>Feedback Form</h2>
+        <h2 id="feedback">Feedback Form</h2>
         <form>
             <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name"><br><br>
-                <label for="feeback">Feedback:</label><br>
-                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
-                <label for="Date"> Date:</label>
+                <label for="feedback-text">Feedback:</label><br>
+                <textarea id="feedback-text" name="feedback" rows="4" cols="50"></textarea>
+                <label for="date"> Date:</label>
                 <input type="date" id="date" name="date"><br><br>
-                <label for ="rating">Rating 1-5:</label>>
+                <label for ="rating">Rating 1-5:</label>
                 <input list="ratings" id="rating" name="rating">
                 <datalist id="ratings">
                     <option value="1">
@@ -136,6 +135,6 @@
 
             </fieldset>
         </form>
-    </div>
+    </main>
   </body>
 </html>
